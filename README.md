@@ -18,6 +18,7 @@ React Router DOM
 
 Redux Toolkit
 
+
 🔑 Funcionalidades
 
 Autenticación básica de usuario
@@ -29,6 +30,7 @@ Validación de credenciales
 Alerta de éxito o error
 
 Diseño responsive con Tailwind CSS
+
 
 🛠️ Proceso de Desarrollo
 
@@ -44,6 +46,7 @@ Visual Studio Code
 
 Git y GitHub
 
+
 📐 Arquitectura
 
 Pages: Contiene las vistas principales (Login, Home)
@@ -52,27 +55,13 @@ Components: Reutilizables como Header y Alert
 
 Redux: Gestión del estado para la autenticación
 
-Diagrama
-
-src
-│
-├─ components
-│   ├─ Header.jsx
-│   ├─ Alert.jsx
-│
-├─ pages
-│   ├─ Home.jsx
-│   ├─ Login.jsx
-│
-└─ redux
-    ├─ authSlice.js
-    └─ store.js
 
 🚀 Desafíos y Soluciones
 
 Manejo de redirección con React Router DOM → Solucionado con useNavigate()
 
 Alertas de éxito/error → Implementado con componente Alert reutilizable
+
 
 🏆 Resultados y Aprendizajes
 
@@ -82,9 +71,11 @@ Práctica con Tailwind CSS para diseño responsive
 
 Mejor comprensión de rutas dinámicas con React Router DOM
 
+
 🔗 Repositorio
 
 GitHub Repo
+
 
 🎯 Cómo ejecutar el proyecto
 
@@ -96,6 +87,7 @@ npm install
 
 # Ejecutar el proyecto
 npm run dev
+
 
 📄 Documentación Adicional
 
